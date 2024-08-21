@@ -1,0 +1,105 @@
+#continer{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+input{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 10px ;
+}
+#d1{
+    color: white;
+    margin: 10px 0px 0px 0px ;
+    background-color: red;
+    padding: 20px;
+    box-sizing: border-box;
+    order: calc(2);
+}
+#d2{
+    background-color: aqua;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 10px 0px 0px 0px ;
+    order: calc(1);
+  
+}
+button{
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: red;
+    color: white;
+    padding: 5px 20px;
+    display: block;
+    margin: 0px auto 0px auto;
+
+}
+#hi{
+    line-height: 100px;
+}
+button:hover{
+        outline: 3px solid rgb(42, 227, 147);
+
+         outline-offset: 2px;
+         color:rgb(42, 227, 147);
+    }
+    @media screen and (min-width: 480px) {
+        #continer{
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        input{
+            width: 100%;
+            padding: 5px;
+            margin-top: 10px;
+        }
+        a{
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            display: block;
+            margin: 10px ;
+        }
+        #d1{
+            color: white;
+            margin: 10px 0px 0px 0px ;
+            background-color: red;
+            padding: 20px;
+            box-sizing: border-box;
+            order: calc(2);
+        }
+        #d2{
+            background-color: aqua;
+            padding: 20px;
+            box-sizing: border-box;
+            margin: 10px 0px 0px 0px ;
+            order: calc(1);
+          
+        }
+        button{
+            border-radius: 10px;
+            border: 1px solid white;
+            background-color: red;
+            color: white;
+            padding: 5px 20px;
+            display: block;
+            margin: 0px auto 0px auto;
+        
+        }
+        #hi{
+            line-height: 100px;
+        }
+        
+      }
